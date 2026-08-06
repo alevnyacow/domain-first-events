@@ -1,6 +1,6 @@
 <p align="center">
     <picture>
-        <img src='https://raw.githubusercontent.com/alevnyacow/domain-first-types/refs/heads/main/logo.svg?sanitize=true'>
+        <img src='https://raw.githubusercontent.com/alevnyacow/domain-first-events/refs/heads/main/logo.svg?sanitize=true'>
     </picture>
 </p>
 
