@@ -7,6 +7,15 @@
         "type": "git",
         "url": "https://github.com/alevnyacow/domain-first-events.git"
     },
+    "keywords": [
+        "event",
+        "domain",
+        "domain-first",
+        "events",
+        "bus",
+        "event-dispatch",
+        "dispatch"
+    ],
     "type": "module",
     "exports": {
         ".": {
