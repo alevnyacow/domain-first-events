@@ -8,9 +8,15 @@
     Lightweight domain event bus with fully typed events and handlers.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/npm/v/%40domain-first%2Fevents?style=for-the-badge" alt="version">
+  <img src="https://img.shields.io/bundlephobia/minzip/%40domain-first%2Fevents?style=for-the-badge" alt="size">
+  <img src="https://img.shields.io/npm/l/%40domain-first%2Fevents?style=for-the-badge" alt="license">
+</p>
+
 # Installation
 
-```bash
+```
 npm i @domain-first/events
 ```
 
