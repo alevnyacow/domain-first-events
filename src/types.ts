@@ -11,7 +11,7 @@ export type DispatchData<Payload> = {
 
 export type HandlerRegistrationMetadata = {
     label?: string;
-    isCritical?: boolean;
+    failDispatchOnError?: boolean;
 };
 
 export type HandlerRegistrationData<Payload> = HandlerRegistrationMetadata & {

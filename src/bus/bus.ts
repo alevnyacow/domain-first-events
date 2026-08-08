@@ -10,11 +10,15 @@ export class Bus {
         const { key, metadata, payload } = event.dispatchData;
         const accordingHandlers = this.rules.filter((x) => x.key === key);
 
-        for (const { handler, label, isCritical } of accordingHandlers) {
+        for (const {
+            handler,
+            label,
+            failDispatchOnError
+        } of accordingHandlers) {
             try {
                 await handler(payload, metadata);
             } catch (e: unknown) {
-                if (isCritical) {
+                if (failDispatchOnError) {
                     throw e;
                 }
 

@@ -28,7 +28,7 @@ export const event = <T>() => {
             return {
                 handler,
                 key,
-                isCritical: metadata?.isCritical,
+                failDispatchOnError: metadata?.failDispatchOnError,
                 label: metadata?.label
             };
         }
