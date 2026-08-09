@@ -53,3 +53,14 @@ const sendNumericEvent = async () => {
     console.log(result.errors);
 };
 ```
+
+# Test coverage
+
+Will be improved in upcoming versions.
+
+| Type       | Threshold | Current value |
+| ---------- | --------- | ------------- |
+| Statements | 95 %      | 95 %          |
+| Branches   | 85 %      | 85.71 %       |
+| Functions  | 100 %     | 100 %         |
+| Lines      | 90 %      | 94.73 %       |
