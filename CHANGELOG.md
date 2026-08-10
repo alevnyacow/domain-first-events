@@ -1,3 +1,10 @@
+## [3.0.5](https://github.com/alevnyacow/domain-first-events/compare/v3.0.4...v3.0.5) (2026-08-10)
+
+
+### Bug Fixes
+
+* removed `Test coverage` section (badge has all the info) ([340c329](https://github.com/alevnyacow/domain-first-events/commit/340c32996039b108a3c02f4a758676affde3fdb7))
+
 ## [3.0.4](https://github.com/alevnyacow/domain-first-events/compare/v3.0.3...v3.0.4) (2026-08-10)
 
 
