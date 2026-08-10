@@ -1,5 +1,4 @@
 import { describe, expect, test } from '@rstest/core';
-import { CriticalHandlerFailedError } from '../errors';
 import { event } from '../event/event';
 import { Bus } from './bus';
 
@@ -91,22 +90,13 @@ describe('event bus', () => {
                         new BooleanEventForCriticalException(flag)
                     );
 
-                await expect(dispatchWithCriticalError).rejects.toThrowError(
-                    CriticalHandlerFailedError
-                );
-
-                try {
-                    const _result = await expect(dispatchWithCriticalError);
-                } catch (e: any) {
-                    if (!(e instanceof CriticalHandlerFailedError)) {
-                        throw 'NOT AN INSTANCE';
+                await expect(dispatchWithCriticalError).rejects.toMatchObject({
+                    cause: flag,
+                    details: {
+                        label: labelForCriticalExceptionHandler,
+                        payload: flag
                     }
-                    expect(e.cause).toBe(flag);
-                    expect(e.details.label).toBe(
-                        labelForCriticalExceptionHandler
-                    );
-                    expect(e.details.payload).toBe(flag);
-                }
+                });
             }
         });
 
@@ -118,20 +108,13 @@ describe('event bus', () => {
                         new BooleanEventForCriticalExceptionWithoutLabel(flag)
                     );
 
-                await expect(dispatchWithCriticalError).rejects.toThrowError(
-                    CriticalHandlerFailedError
-                );
-
-                try {
-                    const _result = await expect(dispatchWithCriticalError);
-                } catch (e: any) {
-                    if (!(e instanceof CriticalHandlerFailedError)) {
-                        throw 'NOT AN INSTANCE';
+                await expect(dispatchWithCriticalError).rejects.toMatchObject({
+                    cause: flag,
+                    details: {
+                        label: '',
+                        payload: flag
                     }
-                    expect(e.cause).toBe(flag);
-                    expect(e.details.label).toBe('');
-                    expect(e.details.payload).toBe(flag);
-                }
+                });
             }
         });
     });
