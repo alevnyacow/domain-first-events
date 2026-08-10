@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/alevnyacow/domain-first-events/compare/v3.0.3...v3.0.4) (2026-08-10)
+
+
+### Bug Fixes
+
+* minor stylistic fix in sources ([4566a14](https://github.com/alevnyacow/domain-first-events/commit/4566a148f9741e7294b97bd94f81e4af4dab0ca0))
+
 ## [3.0.3](https://github.com/alevnyacow/domain-first-events/compare/v3.0.2...v3.0.3) (2026-08-10)
 
 

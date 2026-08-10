@@ -1,7 +1,7 @@
 {
     "name": "@domain-first/events",
     "description": "Lightweight domain event bus with fully typed events and handlers",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "license": "MIT",
     "repository": {
         "type": "git",
