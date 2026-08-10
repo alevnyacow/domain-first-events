@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/alevnyacow/domain-first-events/compare/v3.0.2...v3.0.3) (2026-08-10)
+
+
+### Bug Fixes
+
+* removed `exclude` from `coverage` ([b479e0b](https://github.com/alevnyacow/domain-first-events/commit/b479e0be7a14fc19ed3ebae75e18beff5abc4981))
+
 ## [3.0.2](https://github.com/alevnyacow/domain-first-events/compare/v3.0.1...v3.0.2) (2026-08-10)
 
 
