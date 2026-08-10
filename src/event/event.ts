@@ -9,9 +9,9 @@ export const event = <T>() => {
     const key = Symbol();
 
     class EventBase {
-        constructor(public readonly payload: T) {}
+        constructor(private readonly payload: T) {}
 
-        public readonly occuredAt = Date.now();
+        private readonly occuredAt = Date.now();
 
         get dispatchData(): DispatchData<T> {
             return {

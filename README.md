@@ -56,11 +56,11 @@ const sendNumericEvent = async () => {
 
 # Test coverage
 
-Will be improved in upcoming versions.
+Full ✅
 
 | Type       | Threshold | Current value |
 | ---------- | --------- | ------------- |
-| Statements | 95 %      | 95 %          |
-| Branches   | 85 %      | 85.71 %       |
+| Statements | 100 %     | 100 %         |
+| Branches   | 100 %     | 100 %         |
 | Functions  | 100 %     | 100 %         |
-| Lines      | 90 %      | 94.73 %       |
+| Lines      | 100 %     | 100 %         |
