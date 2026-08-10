@@ -1,3 +1,21 @@
+# [3.0.0](https://github.com/alevnyacow/domain-first-events/compare/v2.0.1...v3.0.0) (2026-08-10)
+
+
+### Bug Fixes
+
+* build fix ([aa72b04](https://github.com/alevnyacow/domain-first-events/commit/aa72b0461ccc07e69bd5ab5227a1477143970b80))
+
+
+### Features
+
+* full test coverage, removed public fields from event, duplicating ([ec075d6](https://github.com/alevnyacow/domain-first-events/commit/ec075d658967d32790bc88da4c2bc7cdbda7bfd9))
+
+
+### BREAKING CHANGES
+
+* fields `payload` and `occuredAt` now marked as `private`. Use
+public `metadata` field to get them.
+
 ## [2.0.1](https://github.com/alevnyacow/domain-first-events/compare/v2.0.0...v2.0.1) (2026-08-09)
 
 
