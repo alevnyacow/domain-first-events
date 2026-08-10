@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/alevnyacow/domain-first-events/compare/v3.0.0...v3.0.1) (2026-08-10)
+
+
+### Bug Fixes
+
+* README without scrolling, added `test coverage 100%` badge ([78fcaa5](https://github.com/alevnyacow/domain-first-events/commit/78fcaa51edf5a9a9cbfba3bcb71c667b7d9a17b3))
+
 # [3.0.0](https://github.com/alevnyacow/domain-first-events/compare/v2.0.1...v3.0.0) (2026-08-10)
 
 
