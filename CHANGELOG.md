@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/alevnyacow/domain-first-events/compare/v3.0.1...v3.0.2) (2026-08-10)
+
+
+### Bug Fixes
+
+* refactored tests ([a3d3a6b](https://github.com/alevnyacow/domain-first-events/commit/a3d3a6bb268d236c8097583c1051554f0cfab3b9))
+
 ## [3.0.1](https://github.com/alevnyacow/domain-first-events/compare/v3.0.0...v3.0.1) (2026-08-10)
 
 
