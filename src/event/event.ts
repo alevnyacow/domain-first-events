@@ -10,6 +10,7 @@ export const event = <T>() => {
 
     class EventBase {
         public readonly dispatchData: DispatchData<T>;
+
         constructor(payload: T) {
             this.dispatchData = {
                 key,
