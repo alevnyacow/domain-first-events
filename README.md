@@ -10,6 +10,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/npm/v/%40domain-first%2Fevents" alt="version">
+  <img src='https://img.shields.io/badge/test%20coverage-100%25-brightgreen'>
   <img src="https://img.shields.io/badge/TypeScript-ready-3178C6?logo=typescript&logoColor=white?style=for-the-badge" alt="size">
   <img src="https://img.shields.io/npm/l/%40domain-first%2Fevents" alt="license">
 </p>
@@ -37,10 +38,13 @@ const bus = new Bus([
         },
         // Optional handler registration metadata.
         {
-            // Used to identify the handler error in the dispatch result.
+            // Used to identify the handler error
+            // in the dispatch result.
             label: "HANDLER WITH ERROR",
-            // If true, dispatch throws when this handler fails.
-            // Otherwise, the error is included in the returned error map.
+            // If true, dispatch throws when this
+            // handler fails.
+            // Otherwise, the error is included in
+            // the returned error map.
             failDispatchOnError: false,
         },
     ),
