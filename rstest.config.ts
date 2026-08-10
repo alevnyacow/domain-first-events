@@ -6,7 +6,6 @@ export default defineConfig({
     reporters: 'verbose',
     coverage: {
         enabled: true,
-        exclude: ['**/index.ts'],
         thresholds: {
             statements: 100,
             branches: 100,
