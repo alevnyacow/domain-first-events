@@ -1,3 +1,10 @@
+## [3.0.6](https://github.com/alevnyacow/domain-first-events/compare/v3.0.5...v3.0.6) (2026-08-15)
+
+
+### Bug Fixes
+
+* **README:** added semantic release badge ([ee02812](https://github.com/alevnyacow/domain-first-events/commit/ee0281296e30bbabf7c8f033227d77b576d246aa))
+
 ## [3.0.5](https://github.com/alevnyacow/domain-first-events/compare/v3.0.4...v3.0.5) (2026-08-10)
 
 
